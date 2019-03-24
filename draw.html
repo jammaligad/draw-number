@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS IMPORTS -->
+        <link rel="stylesheet" href="lib/bootstrap4/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/draw.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+            
+        <title>Draw</title>
+    </head>
+    <body id="content">
+        <div class="bgwrapper">
+            <video id="vidbgelement" preload="auto" autoplay="true" loop="loop" muted="muted">
+                <source src="media/oscars.mp4" type="video/mp4"/>
+            </video>
+        </div>
+        <div class="draw border border-warning">
+                <div class="top">
+                </div>
+                <div class="mid border-top border-bottom border-warning">
+                    <div class="num" id="num">
+                        X
+                    </div>
+                </div>
+                <div class="bot">
+                </div>
+        </div>
+
+        <!-- JAVASCRIPT IMPORTS -->
+        <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+        <script src="lib/popperjs/popper.min.js"></script>
+        <script src="lib/bootstrap4/js/bootstrap.min.js"></script>
+        <script src="js/draw.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
